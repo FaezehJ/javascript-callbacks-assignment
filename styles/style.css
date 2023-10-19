@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #f0f0f0;
+  background-color: #e8dede;
   color: #333;
 }
 
@@ -55,7 +55,7 @@ p.story-header {
   flex-direction: column;
   max-width: 400px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 40px;
   border-radius: 8px;
 }
 

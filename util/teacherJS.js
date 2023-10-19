@@ -1,7 +1,7 @@
-function finishFunctionality(e) {
-    e.preventDefault();
-    if(validateForm(e)) {
-        alert(`Successfully Submitted Form: \n Name: ${e.target.name.value} \n Email: ${e.target.email.value} \n Password: ${e.target.password.value}`)
+function finishFunctionality(event) {
+    event.preventDefault();
+    if(validateForm(event)) {
+        alert(`Successfully Submitted Form: \n Name: ${event.target.name.value} \n Email: ${event.target.email.value} \n Password: ${event.target.password.value}`)
     } else {
         const app = document.querySelector('.app')
         let error = document.createElement('p') 
