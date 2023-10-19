@@ -37,10 +37,9 @@ function validateForm(event) {
         return false;
     }
 
-    //Test comment
     // Email validation
     let email = document.querySelector("#email").value;
-    if (email !== "") {  //I'm not sure how to fix this line.. :(
+    if (!email.includes("@")) {  
         alert("Please enter a proper email address!");
         return false;
     }
